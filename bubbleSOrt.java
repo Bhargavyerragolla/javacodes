@@ -12,10 +12,9 @@ public class bubbleSOrt {
   
     public static void main(String args[]) {
        
-  
+  printArray(3, 6);
         bubbleSOrt bOrt= new bubbleSOrt();
         bOrt.task1();
-        
     }
 
 }
