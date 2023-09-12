@@ -6,6 +6,11 @@ public class bubbleSOrt {
         }
         System.out.println();
     }
+
+
+    public void task1(){
+        System.out.println("New feature added");
+    }
   
     public static void main(String args[]) {
         int arr[] = {7, 8, 1, 3, 2,3,7};
@@ -23,6 +28,9 @@ public class bubbleSOrt {
         }
   
         printArray(arr);
+        bubbleSOrt bOrt= new bubbleSOrt();
+        bOrt.task1();
+        
     }
 
 }
