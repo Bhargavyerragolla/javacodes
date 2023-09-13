@@ -1,8 +1,8 @@
 public class bubbleSOrt {
 	 
     public static void printArray(int a,int b) {
-       
-        System.out.println(a+b);
+      
+        System.out.println(a-b);
     }
 
 
@@ -11,10 +11,11 @@ public class bubbleSOrt {
     }
   
     public static void main(String args[]) {
-       
-  printArray(3, 6);
+        
+  printArray(10, 4);
         bubbleSOrt bOrt= new bubbleSOrt();
         bOrt.task1();
+        
     }
 
 }
